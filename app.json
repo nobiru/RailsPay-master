@@ -1,0 +1,30 @@
+{
+    "name": "Rails Pay",
+    "description": "QR Payment Web Application",
+    "website": "https://github.com/",
+    "repository": "https://github.com/",
+    "env": {
+      "PAYJP_PUBLIC_KEY": {
+        "description": "PAY.jp Public Key",
+        "value": "pk_test_31b0cc09ae3853f01100b5b3"
+      },
+      "PAYJP_SECRET_KEY": {
+        "description": "PAY.jp Secret Key",
+        "value": "sk_test_ac0dd0f99bf5e02e1c0ba881"
+      },
+      "PAYJP_CLIENT_ID": {
+        "description": "PAY.jp Oauth Client Id",
+        "value": "TEST"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "heroku/ruby"
+      }
+    ],
+    "logo": "https://small-sharp-tool.com/logo.svg",
+    "success_url": "/"
+  }
